@@ -18,7 +18,7 @@ public class Ejercicio2 {
         // TODO code application logic here
         
         int contador=1;
-        int oper = 1;
+        long oper = 1;
         for (int i = 1; i <103; i++) {
             contador=contador+1;
             oper=oper*contador;

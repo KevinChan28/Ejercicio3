@@ -22,7 +22,7 @@ public class Ejercicio8 {
         int gato [][] = new int [3][3];
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                System.out.println("Ingrese el valor de [" + i+ "," + j+ "]");
+                System.out.println("Ingrese un valor de [" + i+ "," + j+ "]");
                 gato[i][j]=teclado.nextInt();
             }
         }

@@ -18,7 +18,8 @@ public class Ejercicio5 {
      */
     public static void main(String[] args) {
         Scanner teclado= new Scanner(System.in);
-        int n, x[], mayor, menor, suma=0,contador=0,prom;
+        int n, x[], mayor, menor, suma=0;
+        float prom;
        
         System.out.println("Cantidad de elementos:");
         n= teclado.nextInt();    
